@@ -11,9 +11,10 @@ This project was created using REACT by Rodrigo Calle for a Technical Test .
 * Clone or download the backend repository from [backend repository](https://github.com/rodrigo-calle/blue-corner-backend) and follow the steps.
 * And finally just use the project 👾 
 
-#### Loader
+#### Form page
 ![form](https://i.ibb.co/bKVsxHg/ibc.png)
 
+#### List page
 ![main-page](https://i.ibb.co/VTf67HS/i6.png)
 
 #### Note: 
