@@ -1,0 +1,129 @@
+.product-register {
+    width: 80%;
+    margin: 0 auto;
+
+    .input-name-container{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+
+        .label-name-product{
+            width: 10%;
+            
+        }
+        .input-product-name {
+            width: 40%;
+            height: 25px;
+            border-radius: 7px;
+        }
+    }
+
+    .labels-form{
+        border-radius: 7px;
+        border: 2px solid #000;
+        margin-top: 25px;
+        width: 80%;
+        margin: 35px auto;
+        
+        .label-title {
+            margin-top: -17px;
+            background-color: #fff;
+            width: fit-content;
+            margin-left: 20px;
+        }
+        .labels-form__title {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 60%;
+            margin: 0 auto;
+
+            .label-input {
+                width: 50%;
+                height: 25px;
+                border-radius: 7px;
+            }
+            button{
+                background-color: #053465;
+                color:#fff;
+                border-radius: 7px;
+                padding: 5px 8px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+        .labels-add-container {
+            width: 60%;
+            height: 300px;
+            border-radius: 7px;
+            border: 1px solid #000;
+            margin: 0px auto;
+            margin-top: 20px;
+            margin-bottom: 45px;
+            overflow: auto;
+
+            .label-box{
+                display: flex;
+                width: 90%;
+                margin: 2px auto;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: thin solid #000;
+
+                .label-box__delete {
+                    padding: 3px 15px;
+                    border: 2px solid rgb(255, 0, 0);
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(255, 0, 0);
+                    font-weight: bold;
+                    cursor: pointer
+                }
+            }
+        }
+    }
+    .save-product-btn-container {
+        text-align: right;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+
+        .save-product-btn {
+            background-color: #053465;
+            color:#fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 7px;
+            padding: 5px 8px;
+            cursor: pointer;            
+        }
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .product-register {
+        width: 100%;
+
+        .input-name-container{
+            width: 100%;
+    
+            .label-name-product{
+                width: 30%;
+                
+            }
+            .input-product-name {
+                width: 50%;
+            }
+        }
+    }
+
+    .labels-form{
+        border-radius: 7px;
+        width: 100%;
+
+
+        
+    }
+}

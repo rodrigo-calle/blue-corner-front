@@ -1,0 +1,19 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #053465;
+    align-items: center;
+
+    .navbar__link {
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover {
+            color: #81afe7;
+            transition-duration: .3s;
+        }
+    }
+}

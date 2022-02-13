@@ -1,0 +1,35 @@
+.product-list-container {
+    width: 80%;
+    margin: 0 auto;
+    .product-list-container__card {
+        border: thin solid #307fe2;
+        border-radius: 14px;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .product-list-container__card--content{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .product-name{
+            width: 70%;
+            text-align: left;
+
+        }
+        .product-btn {
+            width: 20%;
+            background-color: #053465;
+            color: #fff;
+            height: 30px;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+        }
+    }
+}
